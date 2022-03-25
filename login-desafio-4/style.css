@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #3F3D56;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 396px; /*Largura máxima*/
+  width: 100%; /*Vai ocupar uma largura 100% até o tamanho max que é de 396px*/
+}
+
+.title {
+  font-weight: 700;
+  font-size: 37px;
+  margin: 68px 0 22px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /*Assim o input ocupará 100% da tela*/
+  margin-bottom: 24px; /*Sempre manter o padrão em outros elementos (margin-bottom) e não (margin-top)*/
+}
+
+.double-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.label-field {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.space-between {
+  width: 48%;
+}
+
+.field-input, .select {
+  width: 100%;
+  border: 1px solid #ABB3A8;
+  padding: 12px 14px;
+  box-sizing: border-box;
+}
+
+.box-genre {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#genre {
+  margin-bottom: 9px;
+}
+
+.options-genre {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 23px;
+}
+
+#confirm-password {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.checkbox-terms {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 28px;
+  
+}
+
+#checkbox-width {
+  width: 18px;
+  height: 18px;
+}
+
+.p-terms {
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #3F3D56;
+  width: 396px;
+  height: 47px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.text-p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-p a {
+  text-decoration: none;
+}
